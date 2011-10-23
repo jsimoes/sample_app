@@ -15,3 +15,4 @@ end
 gem 'sqlite3'
 
 
+gem 'jquery-rails'
