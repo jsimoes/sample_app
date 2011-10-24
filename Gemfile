@@ -7,6 +7,10 @@ group :development do
   gem 'rspec-rails'
 end
 
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
 
 group :test do
   gem 'rspec'
