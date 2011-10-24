@@ -9,7 +9,9 @@ end
 
 group :production do
   # gems specifically for Heroku go here
-  gem "pg"
+  if (Gem.available?('pg'))
+    gem "pg"
+  end
 end
 
 group :test do
