@@ -7,12 +7,6 @@ group :development do
   gem 'rspec-rails'
 end
 
-group :production do
-  # gems specifically for Heroku go here
-  if (Gem.available?('pg'))
-    gem "pg"
-  end
-end
 
 group :test do
   gem 'rspec'
